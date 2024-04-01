@@ -1,5 +1,9 @@
 #!/bin/bash
 
+# Created By:
+#	 Surya Suhaas Modadugu
+#	 mssuhaas@gmail.com
+#
 # Function to restart the service with logging
 restart_service() {
   local service_name="$1"
@@ -15,3 +19,5 @@ restart_service() {
 restart_service "wisun_onem2m"
 
 exit 0
+
+

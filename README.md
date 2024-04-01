@@ -37,3 +37,8 @@ The script ends with an `exit 0` command to ensure that the script itself always
 ## Requirements
 
 This script requires `bash` and `systemctl`, and it must be run with sufficient permissions to restart services (typically root).
+
+
+## Created By
+
+- Surya Suhaas Modadugu [(Surya Suhaas)](mailto:mssuhaas@gmail.com)
