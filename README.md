@@ -4,6 +4,12 @@ This script is used to restart a specific service on a Linux system. It also log
 
 ## Usage
 
+The script needs to be executable 
+```shelllscript
+chmod +x restart_service.sh
+```
+
+
 To use this script as a cron job, open the crontab file with the command:
 
 ```shellscript
