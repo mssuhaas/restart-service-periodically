@@ -12,14 +12,16 @@ chmod +x restart_service.sh
 
 To use this script as a cron job, open the crontab file with the command:
 
+> **Note:** use the below command as root user, for further issues with permissions! Use `sudo su` to change into root user.
+
 ```shellscript
 crontab -e
 ```
 
-Then add a line to the crontab file to schedule the script. For example, to run the script every day at 3 AM, you would add:
+Then add a line to the crontab file to schedule the script. For example, to run the script every day at 2 AM, you would add:
 
 ```shellscript
-0 3 * * * /path/to/restart_service.sh
+0 2 * * * /path/to/restart_service.sh
 ```
 
 Replace `/path/to/restart_service.sh` with the actual path to the script.
